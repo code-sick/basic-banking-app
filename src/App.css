@@ -1,38 +1,89 @@
-.App {
+.Navigation {
+  background-color: #1e90ff;
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+}
+.bankName {
+  margin: 20px;
+  padding: 20px;
+  line-height: 60px;
+  font-size: 50px;
+  color: whitesmoke;
+  font-family: Comic;
+}
+.nav {
+  float: right;
+  list-style: none;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+.button {
+  display: inline-block;
+  color: cornsilk;
+  line-height: 30px;
+  margin: 0 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: darkcyan;
+}
+.Home {
+  background-color: aquamarine;
+  height: 90vh;
+}
+.welcomeText {
+  text-align: center;
+  width: 45vw;
+  position: fixed;
+  word-wrap: break-word;
+  top: 40%;
+  left: 10%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.statedButton {
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  top: 70%;
+  left: 40%;
+  background-color: whitesmoke;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.statedButton:hover {
+  background-color: cadetblue;
+  transition: 3ms;
+  text-decoration: none;
+}
+
+.Costumers {
+  top: 70px;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  justify-content: center;
+}
+
+.myInfo {
+  width: 100vw;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  width: 30%;
+  margin: 25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list {
+  display: inline-flexbox;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table {
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeFooter {
+  width: 100vw;
+  height: 10vh;
+  background-color: #1e90ff;
 }
